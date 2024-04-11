@@ -5,7 +5,7 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } fro
 
 export const DistributorsTabs = () => {
   const [activeTab, setActiveTab] = useState("zotok")
-  console.log(activeTab)
+  
   const handleSetActive = (to) => {
     setActiveTab(to);
   };
@@ -15,7 +15,7 @@ export const DistributorsTabs = () => {
        <div>
         <ul className='active'>
           {DistributorsTabsDetails.map((eachTab)=>(
-            <li className='nav-item'>
+            <li className='nav-item' key={eachTab.id}>
               <Link 
               to={eachTab.id} 
               spy={true} 

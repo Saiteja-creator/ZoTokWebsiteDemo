@@ -18,5 +18,5 @@
 
 
 ### Layout.js(app/layout.js)
-It's Simliar like App component in react ... 
+It's Simliar like react App component... 
     
