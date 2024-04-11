@@ -67,15 +67,18 @@ export const DistributorsTabsDetails=[
     },
     {
         icon:AiOutlineBulb,
-        text:"Reconcilliation"
+        text:"Reconcilliation",
+        id:"Reconcilliation"
     },
     {
         icon:AiOutlineBulb,
-        text:"Marketing"
+        text:"Marketing",
+        id:"Marketing"
     },
     {
         icon:AiOutlineBulb,
-        text:"FAQ"
+        text:"FAQ",
+        id:"FAQ"
     },
 
 ]

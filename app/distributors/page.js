@@ -1,3 +1,4 @@
+"use client"
 import { DistributorDescription } from '@/components/DistributorDescription'
 import { DistributorsNavBar } from '@/components/DistributorsNavBar'
 import { DistributorsTabs } from '@/components/DistributorsTabs'

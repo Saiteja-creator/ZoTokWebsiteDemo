@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 } */
+
+
+.nav-item.active{
+  background-color: blue;
+}

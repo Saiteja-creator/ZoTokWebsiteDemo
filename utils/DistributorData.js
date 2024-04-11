@@ -73,5 +73,74 @@ export const StaticTabDescription=[
         ],
         ImageUrl:"https://www.zonoapp.com/img/home-computer.png"
 
+    },
+    {   id:"Reconcilliation",
+        Heading:"I have problem with payment with payment collections Reconcilliation",
+        Paragraph:"Zono automates payment reminders via SMS, email,and WhatsApp, Improving collection rates.It FAcilitates online payments and reconciles quickly. also handling offline payment and generating receipts for timely reconcillation Reconcilliation.",
+        cartDetails:[
+            {
+                paragraph:"Empower Digital Payments Reconcilliation",
+                subtext:"use Zotok Template1",
+                fontIcon:<AiFillIdcard size="30px"  />
+            },
+            {
+                paragraph:"Improves Cashflow",
+                subtext:"use Zotok Template2",
+                fontIcon:<AiFillIdcard size="30px"  />
+            },
+            {
+                paragraph:"Incentivize Digital Payments",
+                subtext:"use Zotok Template2",
+                fontIcon:<AiFillIdcard size="30px"  />
+            }
+        ],
+        ImageUrl:"https://www.zonoapp.com/img/home-computer.png"
+
+    },
+    {   id:"Marketing",
+        Heading:"I have problem with payment with payment collections",
+        Paragraph:"Zono automates payment reminders via SMS, email,and WhatsApp, Improving collection rates.It FAcilitates online payments and reconciles quickly. also handling offline payment and generating receipts for timely reconcillation.",
+        cartDetails:[
+            {
+                paragraph:"Empower Digital Payments",
+                subtext:"use Zotok Template1",
+                fontIcon:<AiFillIdcard size="30px"  />
+            },
+            {
+                paragraph:"Improves Cashflow",
+                subtext:"use Zotok Template2",
+                fontIcon:<AiFillIdcard size="30px"  />
+            },
+            {
+                paragraph:"Incentivize Digital Payments",
+                subtext:"use Zotok Template2",
+                fontIcon:<AiFillIdcard size="30px"  />
+            }
+        ],
+        ImageUrl:"https://www.zonoapp.com/img/home-computer.png"
+
+    },
+    {   id:"FAQ",
+        Heading:"I have problem with payment with payment collections",
+        Paragraph:"Zono automates payment reminders via SMS, email,and WhatsApp, Improving collection rates.It FAcilitates online payments and reconciles quickly. also handling offline payment and generating receipts for timely reconcillation.",
+        cartDetails:[
+            {
+                paragraph:"Empower Digital Payments",
+                subtext:"use Zotok Template1",
+                fontIcon:<AiFillIdcard size="30px"  />
+            },
+            {
+                paragraph:"Improves Cashflow",
+                subtext:"use Zotok Template2",
+                fontIcon:<AiFillIdcard size="30px"  />
+            },
+            {
+                paragraph:"Incentivize Digital Payments",
+                subtext:"use Zotok Template2",
+                fontIcon:<AiFillIdcard size="30px"  />
+            }
+        ],
+        ImageUrl:"https://www.zonoapp.com/img/home-computer.png"
+
     }
 ]
