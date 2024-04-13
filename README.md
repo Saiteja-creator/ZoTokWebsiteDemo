@@ -14,7 +14,7 @@
 
   4. DistributorDescription: Rendering Distributors Descriptions
 
-  5.DistributorEachTabDescription: Rending eachDistributorsTab's Description (I give Id to div for react scroll )
+  5.DistributorEachTabDescription: Rendering eachDistributorsTab's Description (I give Id to div for react scroll )
 
 
 ### Layout.js(app/layout.js)

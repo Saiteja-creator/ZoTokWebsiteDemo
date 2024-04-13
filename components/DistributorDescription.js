@@ -6,7 +6,7 @@ import { ZotokTabDescription } from './ZotokTabDescription';
 export const DistributorDescription = () => {
   return (
     <div>
-        <Card className=' rounded-tl-none '>
+        <Card className='rounded-tl-none'>
             <CardBody >
                 {StaticTabDescription.map((eachTabDes)=>(
                   <ZotokTabDescription TabDeatils={eachTabDes} key={eachTabDes.Heading}/>

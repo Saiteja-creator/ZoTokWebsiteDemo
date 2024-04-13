@@ -8,7 +8,7 @@ const Distributor = () => {
   return (
     <div className='flex flex-row '>
        <DistributorsTabs/>
-       <div className='mx-1 ml-[190px] w-[1085px] '>
+       <div className='ml-[212px]  w-[1070px] font-helvetica-neue '>
           <DistributorsNavBar/>
           <DistributorDescription/>
        </div>

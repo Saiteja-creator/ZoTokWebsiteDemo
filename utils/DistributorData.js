@@ -3,8 +3,8 @@ import { AiFillIdcard,AiFillBulb } from "react-icons/ai";
 
 export const StaticTabDescription=[
     {   id:"zotok",
-        Heading:"What Can Zotok do?",
-        Paragraph:"Zotok revolutionizes distributor connections, merging whatsApp's ease with a rewarding chatinterface. Streaminged orders, prompt payments, vibrant marketing, and a linked network spur business growth, promoting collaboration",
+        Heading:"What can ZöTok do for me?",
+        Paragraph:"ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.",
         cartDetails:[
             {
                 paragraph:"Increases Turnover",

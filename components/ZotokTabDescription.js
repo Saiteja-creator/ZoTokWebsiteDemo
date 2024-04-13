@@ -11,11 +11,11 @@ export const ZotokTabDescription = ({TabDeatils}) => {
    
   return (
     <Element className='flex' id={id}>
-        <div className='pt-10 pl-2 pb-[150px]'>
-            <div className=''>
-                <h1 className='text-bold text-3xl'>{Heading}</h1>
-                <p className=' break-words w-[600px]'>{Paragraph}</p>
-                <Button color='primary' className='bg-blue-400 text-white rounded-md p-2'>Know More</Button>
+        <div className='pt-10 pl-2 pb-[150px] space-y-3'>
+            <div className='space-y-2'>
+                <h1 className='text-bold text-3xl text-[#091E42]'>{Heading}</h1>
+                <p className=' break-words w-[600px] text-[#091E42]'>{Paragraph}</p>
+                
             </div>
             <div className='flex flex-row justify-between w-[900px]'>
                 <div>
