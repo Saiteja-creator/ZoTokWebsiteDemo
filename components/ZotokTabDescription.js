@@ -1,13 +1,24 @@
 "use client"
-import React from 'react'
+import React,{useState} from 'react'
 import {extendVariants, Button} from "@nextui-org/react";
 import { AiOutlineRise } from "react-icons/ai";
 import { BsBarChart } from "react-icons/bs";
 import { MdOutlineAirlineSeatReclineExtra } from "react-icons/md";
 import { Link, Element } from 'react-scroll';
+import { CardItem } from './CardItem';
+import Image from 'next/image';
 
 export const ZotokTabDescription = ({TabDeatils}) => {
+   
    const {Heading,Paragraph,cartDetails,id} = TabDeatils
+   const [img,setimg] = useState(cartDetails.cardPics[0].image)
+   
+   const handleImage=(id)=>{
+      const filterData= cartDetails.cardPics.filter((each)=>each.id===id)
+      console.log(filterData,"filterData")
+      setimg(filterData[0].image)
+   }
+   console.log(img,"return the Image data ")
    
   return (
     <Element className='flex' id={id}>
@@ -17,36 +28,14 @@ export const ZotokTabDescription = ({TabDeatils}) => {
                 <p className=' break-words w-[600px] text-[#091E42]'>{Paragraph}</p>
                 
             </div>
-            <div className='flex flex-row justify-between w-[900px]'>
-                <div>
-                    <div className='flex flex-row shadow-lg w-[400px] m-1 justify-between p-2'>
-                        <div>
-                            <h1 className='font-bold text-lg'>{cartDetails[0]["paragraph"]}</h1>
-                            <p>Lorem Ipsum</p>
-                        </div>
-                        < BsBarChart  height={400} className='mt-4'/>
-                    </div>
-                    <div className='flex flex-row shadow-lg w-[400px] m-1 justify-between p-2 text-xl'>
-                        <div>
-                            <h1  className='font-bold text-lg'>{cartDetails[1]["paragraph"]}</h1>
-                            <p>Lorem Ipsum</p>
-                        </div>
-                        <div>
-                            <AiOutlineRise height={100} className='mt-4'/>
-                        </div>
-                    </div>
-                    <div className='flex flex-row shadow-lg w-[400px] m-1 justify-between p-2'>
-                        <div>
-                            <h1  className='font-bold text-lg'>{cartDetails[2]["paragraph"]}</h1>
-                            <p>Lorem Ipsum</p>
-                        </div>
-                        <AiOutlineRise height={100} className='mt-4'/>
-                    </div>
-                    
-                </div>
-                <img src="https://www.zonoapp.com/img/collection-mackbook.svg"  alt="ss" className='w-[200px] h[130px]'/>
-            </div>
+            <ul>
+              {cartDetails.cardDesc.map((eachCard)=>
+              <CardItem eachCardDetails={eachCard} key={eachCard.id} handleImage={handleImage}/>
+              )}
+            </ul>
         </div>
+        {/* <Image src={img.image} alt="My Image" width={300} height={200} /> */}
+        <img src={img} alt="imagess" className='w-[300px] h-[300px]'/>
         
     </Element>
   )
