@@ -120,19 +120,19 @@ export const StaticTabDescription=[
             cardPics:[
                 {
                 id:"Startcr",
-                image:'/Group 378216@2x.png'
+                image:'/collection.png'
                 },
                 {
                 id:"Turnovercr",
-                image:'/Group 377860@2x.png'
+                image:'/collection1.png'
                 },
                 {
                 id:"Profitablitycr",
-                image:'/Group 378167@2x.png'
+                image:'/collection2.png'
                 },
                 {
                 id:"Mindcr",
-                image:'/Group 378219 (1).svg'
+                image:'/collection3.png'
                 },
         ]
         },
